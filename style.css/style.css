@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sectioncard {
+    flex-wrap: wrap;
+    min-width: 100%;
+    min-height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 0.8rem;
+    background-color: rgba(92, 165, 165, 0.651);
+}
+
+.card {
+    flex-wrap: wrap;
+    min-height: 30vh !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color: whitesmoke !important;
+    margin: 1rem;
+}
+
+.card h5 {
+    color: black;
+}
+
+.card button {
+    background-color: rgba(27, 41, 41, 0.651) !important;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid black;
+    color: white;
+}
+
+.card img {
+    border-radius: 1rem !important;
+    border: 2px solid black !important;
+    object-fit: contain !important;
+}
+
+.form {
+    width: 40rem;
+}
+
+.buttonSubmit {
+    background-color: rgba(27, 41, 41, 0.651) !important;
+    margin-top: 1rem !important;
+    padding: 3px;
+    border-radius: 5px;
+    border: 1px solid black;
+    color: white;
+}
+
+table, tr, th, td {
+    border: 1px solid white !important;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 0.5rem;
+    margin: 1rem;
+}
+
+th {
+    background-color: rgba(28, 67, 78, 0.63);
+}
+
+td {
+    background-color: rgba(26, 66, 85, 0.459);
+}
+
+table {
+    width: 80rem;
+}
+
+.main {
+    min-height: 80vh;
+    flex-wrap: wrap;
+}
+
+footer {
+    min-width: 100vh;
+    min-height: 13vh !important ;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center !important ;
+    text-align: center !important ;
+    background-color: black !important;
+}
+
+.imgfooter {
+    width: 3rem;
+}
+#bodyCard{
+    background-color: rgba(45, 124, 98, 0.315); 
+    color: black; 
+    border-radius: 1rem; 
+    padding: 2rem; 
+    border: 2px solid black;
+    min-width: 30rem !important;
+}
+
+@media (max-width: 767px) {
+    .sectioncard {
+        flex-direction: column;
+        min-height: auto;
+    }
+    .card {
+        min-height: auto !important;
+    }
+    .classnav .hamburger-button {
+        display: block;
+        background-color: transparent;
+        color: whitesmoke;
+        border: none;
+        padding: 0;
+        font-size: 24px;
+        cursor: pointer;
+    }
+}
+
+
+
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sectioncard{
+    flex-wrap: wrap;
+    min-width: 100vh;
+    min-height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 0.8rem;
+    background-color: rgba(92, 165, 165, 0.651);
+}
+.card{
+    flex-wrap: wrap;
+    min-height: 30vh !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color: whitesmoke !important;
+    margin: 1rem;
+}
+.card h5{
+    color: black;
+}
+.card button{
+    background-color:  rgba(27, 41, 41, 0.651) !important;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid black;
+    color: white;
+}
+.card img{
+    border-radius: 1rem !important;
+    border: 2px solid black !important;
+    object-fit: contain !important;
+}
+    
+
+
+.form{
+    width: 40rem;
+
+}
+.buttonSubmit{
+    background-color:  rgba(27, 41, 41, 0.651) !important;
+    margin-top: 1rem !important;
+    padding: 3px;
+    border-radius: 5px;
+    border: 1px solid black;
+    color: white;
+}
+table,tr,th,td {
+    border: 1px solid white !important;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 0.5rem;
+    margin: 1rem;
+}
+th{
+    background-color:rgba(28, 67, 78, 0.63);
+}
+td{
+    background-color: rgba(26, 66, 85, 0.459);
+}
+table{
+    width: 80rem;
+}
+
+.maincontact{
+    
+    min-height: 83vh !important;
+    }
+.bc{
+    background-color: rgba(60, 170, 221, 0.459) !important;
+}
+header{
+    flex-wrap: wrap;
+    min-width: 100vh;
+    min-height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:black;
+}
+
+.classnav{
+    display:flex;
+    justify-content: space-around;  
+    align-items: center;
+    text-align: center;
+    min-width: 70vh !important;
+    
+}
+.classnav a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.imgnav{
+    display: flex;
+    align-items: center;
+}
+
+.main{
+    min-height: 80vh;
+    flex-wrap: wrap;
+
+}
+footer{
+    min-width: 100vh;
+    min-height: 5vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    background-color:black!important;
+
+
+}
+.imgfooter{
+    width: 3rem;
+}
+@media (max-width: 767px) {
+    .sectioncard {
+      flex-direction: column;
+      min-height: auto;
+    }
+    .card {
+      min-height: auto !important;
+    }
+    .classnav .hamburger-button {
+        display: block;
+      background-color: transparent;
+      color: whitesmoke;
+      border: none;
+      padding: 0;
+      font-size: 24px;
+      cursor: pointer;
+    }
+  } */
